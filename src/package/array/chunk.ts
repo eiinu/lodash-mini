@@ -1,4 +1,4 @@
-export default function chunk(arr: Array<any>, size: number = 1) {
+export default function chunk(arr: Array<any>, size: number = 1): Array<any> {
   size = Math.floor(size);
   if (size > 0) {
     const res = [];

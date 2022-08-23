@@ -1,4 +1,4 @@
-export default function compact(arr: Array<any>) {
+export default function compact(arr: Array<any>): Array<any> {
   return arr.filter(item => {
     return item;
   })
